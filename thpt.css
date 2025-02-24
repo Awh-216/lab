@@ -1,0 +1,105 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.abc{
+    width: 100%;
+    margin:0 auto;
+}
+
+.abc > header{
+    background-image: url('302151757_488038296663951_2323593813515438640_n.png');
+    background-size: 100% 110%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+
+.xyz > marquee{
+    line-height: 30px;
+    background-color: rgb(95, 95, 198);
+    float: left;
+}
+
+
+.abc >nav{
+    line-height: 50px;
+    background-color: rgb(180, 134, 223);
+    color: white;
+    text-align: center;
+    font-variant: inherit;
+}
+
+
+
+.abc >article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+
+
+.abc > article > h1{
+    text-align: center;
+    color: red;
+    font-size: 130%;
+}
+
+
+.block1 >img{
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+
+
+.block1 >p{
+    margin-left: 10px;
+}
+
+.block2 >img{
+    width: 35%;
+    margin: 10px;
+    float: right;
+    
+}
+
+.block2 >p{
+    margin-left: 10px;
+}
+
+.abc >aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+
+
+.abc >footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color:lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+
+.abc >nav >a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+
+.abc >nav >a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.abc >aside >ul >li >a:hover{
+    color: green;
+}
